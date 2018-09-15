@@ -13,16 +13,21 @@ public:
 	Vector3D();
 	~Vector3D();
 public:
-	void SetVector(int x,int y, int z);
+	void SetVector(float x, float y, float z);
 public:
 	int Getx();
 	int Gety();
 	int Getz();
 public:
 	void PrintValues();
-public:
+public: 
 	Vector3D normalize(Vector3D &v);
-	static int length(Vector3D &v);
+	
+	float length() {
+		float length;
+		length = sqrt((this->x*this->x) + (this->y*this->y) + (this->z*this->z));
+		return length;
+	}
 public:
 	Vector3D operator+(Vector3D &v) {
 		Vector3D Newvec;
@@ -54,6 +59,11 @@ public:
 	//	this->y = v.y;
 	//	this->z = v.z;
 	//}
+public:
+	void Zero();
+	bool IsZero();
+	static float DistanceBetween(Vector3D v1, Vector3D v2);
+	static Vector3D Normalize(Vector3D v1);
 };
 #endif
 

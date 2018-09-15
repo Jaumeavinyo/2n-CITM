@@ -63,11 +63,29 @@ int main() {
 	printf("\n does this stuff works? ---> *");
 
 
-	V4.SetVector(1, 1, 1);
-	int y;
-	y = Vector3D::length(V4);
+	V4.SetVector(2, 2, 2);
+	float y;
+	y = V4.length();
 
-	printf("\n %i \n", y);
+	printf("\n %f \n", y);
+
+	V4.Zero();
+
+	V4.PrintValues();
+	//_______________________________
+
+
+	Vector3D V5;
+	Vector3D V6;
+
+	V5.SetVector(1,1,1);
+	V6.SetVector(4,4,4);
+	float o;
+
+	o = Vector3D::DistanceBetween(V5, V6);
+
+	printf("\n %f", o);
+	
 	system("pause");
 	return 0;
 }
