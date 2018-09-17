@@ -44,12 +44,12 @@ bool Vector3D::IsZero() {
 	}
 	return ret;
 }
-float Vector3D::DistanceBetween(Vector3D v1, Vector3D v2) {
+float Vector3D::DistanceBetween( Vector3D v2) {
 	Vector3D Aux;
 
-	Aux.x = v1.x - v2.x;
-	Aux.y = v1.y - v2.y;
-	Aux.z = v1.z - v2.z;
+	Aux.x = this->x - v2.x;
+	Aux.y = this->y - v2.y;
+	Aux.z = this->z - v2.z;
 
 	float Aux1;
 
@@ -59,8 +59,8 @@ float Vector3D::DistanceBetween(Vector3D v1, Vector3D v2) {
 }
 Vector3D Vector3D::Normalize(Vector3D v1) {
 	Vector3D aux;
-	aux.x = v1.x / v1.length;
-	aux.y = v1.y / v1.length;
-	aux.z = v1.z / v1.length;
+	aux.x = v1.x / v1.length();
+	aux.y = v1.y / v1.length();
+	aux.z = v1.z / v1.length();
 	return aux;
 }

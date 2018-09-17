@@ -82,7 +82,7 @@ int main() {
 	V6.SetVector(4,4,4);
 	float o;
 
-	o = Vector3D::DistanceBetween(V5, V6);
+	o = V5.DistanceBetween(V6);
 
 	printf("\n %f", o);
 	

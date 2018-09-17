@@ -1,12 +1,15 @@
 ﻿  Main.cpp
-c:\users\jaume\documents\github\2n-citm\3dvectorclass\vector3d.h(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.h(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Vector3D.cpp
-c:\users\jaume\documents\github\2n-citm\3dvectorclass\vector3d.h(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jaume\documents\github\2n-citm\3dvectorclass\vector3d.cpp(14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\jaume\documents\github\2n-citm\3dvectorclass\vector3d.cpp(15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\jaume\documents\github\2n-citm\3dvectorclass\vector3d.cpp(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\jaume\documents\github\2n-citm\3dvectorclass\vector3d.cpp(29): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'int'
-c:\users\jaume\documents\github\2n-citm\3dvectorclass\vector3d.cpp(29): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 2 has type 'int'
-c:\users\jaume\documents\github\2n-citm\3dvectorclass\vector3d.cpp(29): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 3 has type 'int'
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.h(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.cpp(14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.cpp(15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.cpp(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.cpp(29): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'int'
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.cpp(29): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 2 has type 'int'
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.cpp(29): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 3 has type 'int'
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.cpp(62): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.cpp(63): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\jaumeas3\documents\github\2n-citm\3dvectorclass\vector3d.cpp(64): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   Generating Code...
-  3DVectorClass.vcxproj -> C:\Users\Jaume\Documents\GitHub\2n-CITM\Debug\3DVectorClass.exe
+  3DVectorClass.vcxproj -> C:\Users\jaumeas3\Documents\GitHub\2n-CITM\Debug\3DVectorClass.exe

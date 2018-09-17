@@ -62,7 +62,7 @@ public:
 public:
 	void Zero();
 	bool IsZero();
-	static float DistanceBetween(Vector3D v1, Vector3D v2);
+	float DistanceBetween( Vector3D v2);
 	static Vector3D Normalize(Vector3D v1);
 };
 #endif
