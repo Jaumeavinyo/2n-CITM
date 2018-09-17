@@ -54,11 +54,22 @@ public:
 		this->y -= v.y;
 		this->z -= v.z;
 	}
-	//void operator=(Vector3D &v) {  //V1=V2
-	//	this->x = v.x;
-	//	this->y = v.y;
-	//	this->z = v.z;
-	//}
+	bool operator== (Vector3D &v) {
+
+		if ((x == v.x) && (y == v.y) && (z == v.z)) {
+			return true;
+		}
+		else
+			return false;
+
+	}
+
+	void operator=(Vector3D &v) {
+
+		x = v.x;
+		y = v.y;
+		z = v.z;
+	};
 public:
 	void Zero();
 	bool IsZero();
