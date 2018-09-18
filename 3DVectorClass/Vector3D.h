@@ -5,6 +5,14 @@
 #include "math.h"
 using namespace std;
 
+
+
+
+//LINT FO C++ (STATIC ANALYSER)
+
+//VIRTUAL DESTRUCTORS ALWAYS?
+//WHY SHOULDN'T DO THIS?:  vec.x == 0.0f
+
 class Vector3D {
 private:
 	int x, y, z;
@@ -29,14 +37,14 @@ public:
 		return length;
 	}
 public:
-	Vector3D operator+(Vector3D &v) {
+	Vector3D operator+(const Vector3D &v)const {
 		Vector3D Newvec;
 		Newvec.x = this->x + v.x;
 		Newvec.y = this->y + v.y;
 		Newvec.z = this->z + v.z;
 		return Newvec;
 	}
-	Vector3D operator-(Vector3D &v) {
+	Vector3D operator-(const Vector3D &v)const {
 		Vector3D  Newvec;
 		Newvec.x = this->x - v.x;
 		Newvec.y = this->y - v.y;
@@ -44,17 +52,17 @@ public:
 
 		return Newvec;
 	}
-	void operator+=(Vector3D &v) {  //V1+=V2;
+	void operator+=(const Vector3D &v) {  //V1+=V2;
 		this->x += v.x;
 		this->y += v.y;
 		this->z += v.z;
 	}
-	void operator-=(Vector3D &v) {  //V1+=V2;
+	void operator-=(const Vector3D &v) {  //V1+=V2;
 		this->x -= v.x;
 		this->y -= v.y;
 		this->z -= v.z;
 	}
-	bool operator== (Vector3D &v) {
+	bool operator== (const Vector3D &v) {
 
 		if ((x == v.x) && (y == v.y) && (z == v.z)) {
 			return true;
